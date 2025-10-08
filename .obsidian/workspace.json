@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Datenbank.md",
+                "file": "Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datenbank"
+              "title": "Project"
             }
           }
         ],
@@ -229,12 +229,12 @@
   },
   "active": "729c0a00a3fd7fc4",
   "lastOpenFiles": [
+    "Frontend/Domains.md",
+    "Project.md",
     "Backend/Server Kommunikation.md",
     "Backend/Datenbank.md",
     "conflict-files-obsidian-git.md",
-    "Frontend/Domains.md",
     "Leere.md",
-    "Project.md",
     "Backend/_backend.md",
     "Frontend/_frontend.md",
     "Welcome.md",
