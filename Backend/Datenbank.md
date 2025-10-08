@@ -12,3 +12,8 @@
 		- Frage
 		- Antworten seperiert von | 
 		- Richtig seperiert von |
+
+```mermaid
+erDiagram
+```
+
