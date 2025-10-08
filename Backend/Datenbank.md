@@ -15,5 +15,27 @@
 
 ```mermaid
 erDiagram
+	GAME {
+	}
+	
+	QUIZ {
+		int id PK
+		String name
+	}
+	
+	FRAGEN {
+		int id PK
+		int q_id FK
+		String frage
+		String antworten
+		String Correkt
+	}
+	
+	SPIELER {
+	}
+	
+	GAME ||--|| QUIZ : hat
+	GAME ||--o{ SPIELER : hat
+	QUIZ ||--o{ FRAGEN : hat
 ```
 
