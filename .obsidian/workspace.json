@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leere.md",
+                "file": "Backend/Datenbank.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Leere"
+              "title": "Datenbank"
             }
           }
         ],
@@ -223,16 +223,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "729c0a00a3fd7fc4",
   "lastOpenFiles": [
+    "Backend/Server Kommunikation.md",
+    "Frontend/Domains.md",
     "Backend/Datenbank.md",
     "Leere.md",
-    "Backend/Server Kommunikation.md",
     "Project.md",
-    "Frontend/Domains.md",
     "Backend/_backend.md",
     "Frontend/_frontend.md",
     "Welcome.md",
