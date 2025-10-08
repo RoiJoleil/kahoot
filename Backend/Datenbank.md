@@ -1,6 +1,6 @@
 ### Datenbank
 - Typen
-	- Moduldb
+	- Mongodb
 	- SQL
 - Struktur
 	- Haupt Table mit Verlinkung zu fragen
