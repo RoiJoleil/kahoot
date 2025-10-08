@@ -14,7 +14,7 @@ erDiagram
 		int q_id FK
 		String frage
 		String antworten
-		String Correkt
+		String correkt
 	}
 	
 	SPIELER {
