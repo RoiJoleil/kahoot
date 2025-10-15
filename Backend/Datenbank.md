@@ -1,19 +1,30 @@
-### Datenbank
-- Typen
-	- Mongodb
-	- SQL
-- Struktur
-	- Haupt Table mit Verlinkung zu fragen
-		- ID
-		- Name
-		- Verlinkung
-	- Pro Fragenset ein table
-		- ID
-		- Frage
-		- Antworten seperiert von | 
-		- Richtig seperiert von |
-
+## Struktur
 ```mermaid
 erDiagram
+	GAME {
+	}
+	
+	QUIZ {
+		int id PK
+		String name
+	}
+	
+	FRAGEN {
+		int id PK
+		int q_id FK
+		String frage
+		String antworten
+		String correkt
+	}
+	
+	SPIELER {
+		int id PK
+		String name
+		int score
+	}
+	
+	GAME ||--|| QUIZ : "has"
+	GAME ||--o{ SPIELER : "has many"
+	QUIZ ||--o{ FRAGEN : "has many"
 ```
 
